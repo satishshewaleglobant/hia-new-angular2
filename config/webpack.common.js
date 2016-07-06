@@ -275,6 +275,10 @@ module.exports = {
       jQuery: 'jquery',
       $: 'jquery',
       jquery: 'jquery'
+    }),
+
+    new webpack.ProvidePlugin({
+      svgPanZoom: 'svg-pan-zoom'
     })
 
   ],
